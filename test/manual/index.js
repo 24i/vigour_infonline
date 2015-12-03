@@ -1,7 +1,12 @@
 'use strict'
 require('gaston-tester')
 
-const TRACK_DATA = {}
+const TRACK_DATA = {
+  st: 'fakest',
+  cp: 'fakecp',
+  sv: 'fakesv',
+  co: 'fakeco'
+}
 
 describe('Infonline plugin manual tests', function () {
   var info = require('../../lib')
