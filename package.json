@@ -46,7 +46,7 @@
       "android": {
         "skipInstall": true,
         "className": "io.vigour.infonline",
-        "instantiation": "new Orientation(this, webview)"
+        "instantiation": "new Infonline(this, webview)"
       }
     }
   },
