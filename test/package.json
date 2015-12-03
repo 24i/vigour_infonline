@@ -1,0 +1,60 @@
+{
+  "name": "vigour-infonline-tests",
+  "dependencies": {
+    "vigour-infonline": "../"
+  },
+  "gaston": {
+    "package": true
+  },
+  "vigour": {
+    "native": {
+      "debug": true,
+      "platforms": {
+        "ios": {
+          "productName": "Infonline Tests",
+          "organizationName": "Vigour",
+          "organizationIdentifier": "io.vigour.infonline",
+          "buildNumber": "1",
+          "appIndexPath": "build.html",
+          "NSAllowsArbitraryLoads": true,
+          "assets": {
+            "build.html": true,
+            "build.js": true,
+            "build.css": true,
+            "mocha.js": true,
+            "mocha.css": true
+          }
+        },
+        "android": {
+          "debug": true,
+          "run": true,
+          "productName": "Infonline Tests",
+          "applicationId": "io.vigour.infonline",
+          "appIndexPath": "build.html",
+          "splashDuration": "0",
+          "assets": {
+            "build.html": true,
+            "build.js": true,
+            "build.css": true,
+            "mocha.js": true,
+            "mocha.css": true
+          }
+        }
+      }
+    }
+  },
+  "standard": {
+    "globals": [
+      "alert",
+      "describe",
+      "it",
+      "expect",
+      "before",
+      "after",
+      "beforeEach",
+      "afterEach",
+      "sinon",
+      "FB"
+    ]
+  }
+}
