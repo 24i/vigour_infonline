@@ -28,7 +28,7 @@
   "contributors": [
     "Shawn Inder <shawn@vigour.io>"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vigour-io/infonline/issues"
   },
