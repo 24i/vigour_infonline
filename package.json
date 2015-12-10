@@ -1,6 +1,6 @@
 {
   "name": "vigour-infonline",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "infonline",
   "main": "lib/index.js",
   "scripts": {
@@ -37,9 +37,10 @@
     "node": ">=0.12"
   },
   "dependencies": {
+    "vigour-config": "~0.0.7",
+    "vigour-env": "^1.0.9",
     "vigour-ua": "~0.0.3",
-    "vigour-wrapper": "~2.2.0",
-    "vigour-config": "~0.0.7"
+    "vigour-wrapper": "~2.2.0"
   },
   "vigour": {
     "plugin": {
