@@ -46,12 +46,11 @@ android {
 }
 
 dependencies {
-    compile 'io.vigour:plugin-core:0.6.3'
+    compile 'io.vigour:plugin-core:0.6.4'
     compile 'com.fasterxml.jackson.jr:jackson-jr-objects:2.6.3'
-    compile 'com.facebook.android:facebook-android-sdk:4.6.0'
+    compile project(':infonlinelib_1.1.4')
+    compile 'com.android.support:appcompat-v7:21.0.3'
 }
-
-
 
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

@@ -46,7 +46,7 @@
     "plugin": {
       "android": {
         "className": "io.vigour.plugin.infonline.Infonline",
-        "instantiation": "new Infonline()"
+        "instantiation": "new Infonline(this)"
       }
     }
   },

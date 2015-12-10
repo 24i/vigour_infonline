@@ -1,2 +1,2 @@
-include ':example'
+include ':example', ':infonlinelib_1.1.4'
 include ':plugin-infonline'
