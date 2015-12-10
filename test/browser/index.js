@@ -1,15 +1,14 @@
 'use strict'
 var tests = require('../tests')
-require('./bridgeMock')
-
-var nativePlatform = require('../../lib/platform/native')
 
 describe('Infonline plugin automated tests', function () {
-  // describe('Mock plugin tests', function () {
-  //   tests(require('./pluginMock'))
-  // })
+  describe('Mock Platform tests', function () {
+    tests(require('../../lib/platform/mock'), 'platform')
+  })
 
-  describe('Mock bridge tests', function () {
-    tests(nativePlatform)
+  describe('Mock native tests', function () {
+    var mockBridge = require('./mockBridge')
+    var nativePlatform = require('../../lib/platform/native')
+    tests(nativePlatform, mockBridge)
   })
 })

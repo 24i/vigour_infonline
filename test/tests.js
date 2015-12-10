@@ -8,7 +8,7 @@ const TRACK_DATA = {
   co: 'fakeco'
 }
 
-module.exports = function infonlineTests (inject) {
+module.exports = function infonlineTests (inject, type) {
   var infonline
 
   it('should require', function () {
