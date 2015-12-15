@@ -11,11 +11,31 @@ Add `"infonline": "git+ssh://git@github.com:vigour-io/infonline.git#master"` to 
 Coming soon: `npm i vigour-infonline`
 
 ## Usage
+Th eplugin must be configured in the `package.json` adding the siteId used by Infonline to associate the tracking event with the site
 
--- TODO --
+```js
+// plugini intialization
+var infonline = require('vigour-infonline')
+
+// init is send setting plugin value as true
+// it will load the script (if web)
+infonline.val = true
+
+// to track we have the `track` method which accepts a JSON object
+infonline.track({
+  // cp, used to identify pages and later by infonline
+  // to categorize.you can freely chose a code of your
+  // choice (if not given by customer)
+  cp: 'fakecode',
+  // sv, FRABO control, check infonline docs
+  sv: 'fakesv',
+  // co, an optional comment
+  co: 'fakecomment'
+})
+```
 
 See [tests](test) for more use cases.
 
 ## Specifications for native communication
 
--- TODO --
+see [Plugin API](PLUGIN_API.md)
