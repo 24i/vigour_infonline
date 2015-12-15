@@ -2,7 +2,6 @@
 require('gaston-tester')
 
 const TRACK_DATA = {
-  st: 'fakest',
   cp: 'fakecp',
   sv: 'fakesv',
   co: 'fakeco'
