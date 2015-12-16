@@ -33,7 +33,7 @@ module.exports = function infonlineTests (inject, type) {
 
   // plugin must be able to send events using the track methods
   it('should be able to track stuff', function (done) {
-    infonline.track(TRACK_DATA, function () {
+    infonline.track(TRACK_DATA, () => {
       done()
     })
   })
