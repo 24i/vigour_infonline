@@ -5,14 +5,12 @@ bridge.label = 'mockBridge'
 bridge.mock = {
   methods: {
     init (opts, cb) {
-      console.log('init!')
       setTimeout(function () {
         cb && cb(null)
       })
     },
     track (data, cb) {
       // track the data!
-      console.log('track!')
       setTimeout(function () {
         cb && cb(null)
       })
