@@ -7,11 +7,15 @@
     "package": true
   },
   "vigour": {
-    "infonline": {
-      "siteId": "fakeId",
-      "web": {
-        "src": "https://script.ioam.de/iam.js",
-        "scriptId": "infonline-sdk" 
+    "track": {
+      "services": {
+        "infonline": {
+          "siteId": "fakeId",
+          "web": {
+            "src": "https://script.ioam.de/iam.js",
+            "scriptId": "infonline-sdk"
+          }
+        }
       }
     },
     "native": {
